@@ -240,8 +240,52 @@ body {
   color: var(--color-text-body);
 }
 
+.education__link {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.education__link img {
+  width: 100%;
+}
+
+.education__link a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.education__link-title {
+  color: var(--color-text-heading);
+}
+
+.education__link-time {
+  color: var(--color-text-heading);
+}
+
 @media (min-width: 768px) {
   .images-experience {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 730px) {
+  .education__link {
+    /* mismo largo que las tres imágenes de arriba: 3 × 150px + 2 gaps de 0.5rem */
+    width: calc(3 * 150px + 2 * 0.5rem);
+  }
+
+  .education__link a {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .education__link img {
+    width: 50%;
+  }
+
+  .education__link-content {
+    flex: 1;
   }
 }
