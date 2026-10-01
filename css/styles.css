@@ -261,7 +261,7 @@ body {
 }
 
 .education__link-time {
-  color: var(--color-text-heading);
+  color: var(--color-text-meta);
 }
 
 @media (min-width: 768px) {
