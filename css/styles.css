@@ -206,6 +206,40 @@ body {
   border-radius: 8px;
 }
 
+.education {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.education__date {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: var(--color-text-meta);
+  flex: 0 0 7rem;
+}
+
+.education__date h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.education__title {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: var(--color-text-heading);
+  overflow-wrap: break-word;
+}
+
+.education__location {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: var(--color-text-body);
+}
+
 @media (min-width: 768px) {
   .images-experience {
     flex-direction: row;
