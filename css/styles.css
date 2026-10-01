@@ -270,7 +270,7 @@ body {
   }
 }
 
-@media (min-width: 730px) {
+@media (min-width: 768px) {
   .education__link {
     /* mismo largo que las tres imágenes de arriba: 3 × 150px + 2 gaps de 0.5rem */
     width: calc(3 * 150px + 2 * 0.5rem);
