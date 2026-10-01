@@ -1,62 +1,347 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi CV</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <div class="profile">
-                <img class="profile__image" alt="Sara Lawrence" src="./assets/images/image-profile.png" width="92" height="93">
-                <div class="profile__data">
-                    <h1 class="profile__name">Sara Lawrence</h1>
-                    <p class="profile__subtitle">Design in San Francisco</p>
-                    <a class="profile__website" href="https://website.com" target="_blank" rel="noopener noreferrer">website.com</a>
-                </div>
+      <header>
+        <div class="profile">
+          <img
+            class="profile__image"
+            alt="Sara Lawrence"
+            src="./assets/images/image-profile.png"
+            width="92"
+            height="93"
+          />
+          <div class="profile__data">
+            <h1 class="profile__name">Sara Lawrence</h1>
+            <p class="profile__subtitle">Design in San Francisco</p>
+            <a
+              class="profile__website"
+              href="https://website.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >website.com</a
+            >
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="section">
+          <h2 class="section__title">About</h2>
+          <p class="section__description">
+            I’m a passionate UX designer striving to create intuitive and
+            engaging experiences. I’m a big believer that things can always be
+            simpler than we think.
+          </p>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Work Experience</h2>
+          <article class="work-experience">
+            <div class="work-experience__date">
+              <time datetime="2017">2017</time> — Now
             </div>
-        </header>
-        <main>
-            <section class="section">
-                <h2 class="section__title">About</h2>
-                <p class="section__description">
-                    I’m a passionate UX designer striving to create intuitive and engaging
-                    experiences. I’m a big believer that things can always be simpler than
-                    we think.
-                </p>
-            </section>
-            <section class="section">
-                <h2 class="section__title">Work Experience</h2>
-                <article class="work-experience">
-                    <div class="work-experience__date"><time datetime="2017">2017</time> — Now</div>
-                    <div>
-                        <h3 class="work-experience__title">Senior Designer at Magic Design Co Senior Designer at Magic Design Co Senior
-                            Designer at Magic Design Co Senior Designer at Magic Design Co<span aria-hidden="true">↗</span></h3>
-                        <p class="work-experience__location">San Francisco, CA</p>
-                    </div>
-                </article>
-                <article class="work-experience">
-                    <div class="work-experience__date"><time datetime="2015">2015</time> — <time datetime="2017">2017</time></div>
-                    <div>
-                        <h3 class="work-experience__title">Junior Designer at Creative Co<span aria-hidden="true">↗</span></h3>
-                        <p class="work-experience__location">Atlanta, GA</p>
-                        <div class="images-experience">
-                            <img src="./assets/images/design.png"
-                                alt="Abstract 3D composition of colorful geometric shapes" width="150" height="90">
-                            <img src="./assets/images/design-photo.png"
-                                alt="Mobile app screens shown as layered, overlapping cards" width="150" height="90">
-                            <img src="./assets/images/design-screen.png"
-                                alt="Collection of mobile app screens for a magazine website" width="150" height="90">
-                        </div>
-                    </div>
-                </article>
-            </section>
-        </main>
+            <div>
+              <h3 class="work-experience__title">
+                Senior Designer at Magic Design Co Senior Designer at Magic
+                Design Co Senior Designer at Magic Design Co Senior Designer at
+                Magic Design Co<span aria-hidden="true">↗</span>
+              </h3>
+              <p class="work-experience__location">San Francisco, CA</p>
+            </div>
+          </article>
+          <article class="work-experience">
+            <div class="work-experience__date">
+              <time datetime="2015">2015</time> —
+              <time datetime="2017">2017</time>
+            </div>
+            <div>
+              <h3 class="work-experience__title">
+                Junior Designer at Creative Co<span aria-hidden="true">↗</span>
+              </h3>
+              <p class="work-experience__location">Atlanta, GA</p>
+              <div class="images-experience">
+                <img
+                  src="./assets/images/design.png"
+                  alt="Abstract 3D composition of colorful geometric shapes"
+                  width="150"
+                  height="90"
+                />
+                <img
+                  src="./assets/images/design-photo.png"
+                  alt="Mobile app screens shown as layered, overlapping cards"
+                  width="150"
+                  height="90"
+                />
+                <img
+                  src="./assets/images/design-screen.png"
+                  alt="Collection of mobile app screens for a magazine website"
+                  width="150"
+                  height="90"
+                />
+              </div>
+            </div>
+          </article>
+          <article class="work-experience">
+            <div class="work-experience__date">
+              <time datetime="2014">2014</time> —
+              <time datetime="2015">2015</time>
+            </div>
+            <div>
+              <h3 class="work-experience__title">
+                Intern at Design Hub<span aria-hidden="true">↗</span>
+              </h3>
+              <p class="work-experience__location">Atlanta, GA</p>
+            </div>
+          </article>
+          <article class="work-experience">
+            <div class="work-experience__date">
+              <time datetime="2012">2012</time> —
+              <time datetime="2014">2014</time>
+            </div>
+            <div>
+              <h3 class="work-experience__title">
+                Freelance Graphic Designer<span aria-hidden="true">↗</span>
+              </h3>
+              <p class="work-experience__location">Remote</p>
+            </div>
+          </article>
+          <article class="work-experience">
+            <div class="work-experience__date">
+              <time datetime="2010">2010</time> —
+              <time datetime="2012">2012</time>
+            </div>
+            <div>
+              <h3 class="work-experience__title">
+                Art Assistant at Studio X<span aria-hidden="true">↗</span>
+              </h3>
+              <p class="work-experience__location">Cincinnati, OH</p>
+            </div>
+          </article>
+          <article class="work-experience">
+            <div class="work-experience__date">
+              <time datetime="2008">2008</time> —
+              <time datetime="2010">2010</time>
+            </div>
+            <div>
+              <h3 class="work-experience__title">
+                Volunteer Designer at Nonprofit Y<span aria-hidden="true"
+                  >↗</span
+                >
+              </h3>
+              <p class="work-experience__location">Cincinnati, OH</p>
+            </div>
+          </article>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Writting</h2>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2023">2023</time>
+            </div>
+            <div>
+              <h3 class="education__title">
+                Exploring the Intersection of Design and Technology
+              </h3>
+              <p class="education__location">
+                Collaboration with Mia, Leo, and Ava
+              </p>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2023">2023</time>
+            </div>
+            <div>
+              <h3 class="education__title">Understanding Design Hierarchies</h3>
+              <p class="education__location">Worked alongside Alex</p>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2020">2020</time>
+            </div>
+            <div>
+              <h3 class="education__title">The Art of User-Centered Design</h3>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2019">2019</time>
+            </div>
+            <div>
+              <h3 class="education__title">Navigating Design Challenges</h3>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2018">2018</time>
+            </div>
+            <div>
+              <h3 class="education__title">
+                Crafting Engaging User Experiences
+              </h3>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2018">2018</time>
+            </div>
+            <div>
+              <h3 class="education__title">
+                Building a Cohesive Design Language
+              </h3>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2017">2017</time>
+            </div>
+            <div>
+              <h3 class="education__title">The Power of Visual Storytelling</h3>
+            </div>
+          </article>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Speaking</h2>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2024">2024</time>
+            </div>
+            <div>
+              <h3 class="education__title">Designing for accessibility</h3>
+              <p class="education__location">Los Angeles, CA</p>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2024">2024</time>
+            </div>
+            <div>
+              <h3 class="education__title">How to make things super simple</h3>
+              <p class="education__location">Miami, FL</p>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2020">2020</time>
+            </div>
+            <div>
+              <h3 class="education__title">Designing your career</h3>
+            </div>
+          </article>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Side Projects</h2>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2021">2021</time>
+            </div>
+            <div>
+              <h3 class="education__title">Nature walks</h3>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2020">2020</time>
+            </div>
+            <div>
+              <h3 class="education__title">Plant-based cookware</h3>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2019">2019</time>
+            </div>
+            <div>
+              <h3 class="education__title">Interactive art installation</h3>
+            </div>
+          </article>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Education</h2>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2010">2010</time> -
+              <time datetime="2010">2010</time>
+            </div>
+            <div>
+              <h3 class="education__title">
+                Masters in Interaction Design at Georgia Tech
+              </h3>
+              <p class="education__location">Atlanta, GA</p>
+            </div>
+          </article>
+          <article class="education">
+            <div class="education__date">
+              <time datetime="2006">2006</time> -
+              <time datetime="2010">2010</time>
+            </div>
+            <div>
+              <h3 class="education__title">
+                Bachelors in Communication Design at University of Cincinnati
+              </h3>
+              <p class="education__location">Cincinnati, OH</p>
+            </div>
+          </article>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Education</h2>
+          <article class="education">
+            <div class="education__date">
+              <h2>Threads</h2>
+            </div>
+            <div>
+              <h3 class="education__title">username</h3>
+            </div>
+          </article>
+                    <article class="education">
+            <div class="education__date">
+              <h2>Figma</h2>
+            </div>
+            <div>
+              <h3 class="education__title">username</h3>
+            </div>
+          </article>
+                    <article class="education">
+            <div class="education__date">
+              <h2>Instagram</h2>
+            </div>
+            <div>
+              <h3 class="education__title">username</h3>
+            </div>
+          </article>
+                    <article class="education">
+            <div class="education__date">
+              <h2>Bluesky</h2>
+            </div>
+            <div>
+              <h3 class="education__title">username</h3>
+            </div>
+          </article>
+                    <article class="education">
+            <div class="education__date">
+              <h2>Mastodon</h2>
+            </div>
+            <div>
+              <h3 class="education__title">username</h3>
+            </div>
+          </article>
+                    <article class="education">
+            <div class="education__date">
+              <h2>X</h2>
+            </div>
+            <div>
+              <h3 class="education__title">username</h3>
+            </div>
+          </article>
+        </section>
+      </main>
     </div>
-</body>
-
+  </body>
 </html>
